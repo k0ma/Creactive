@@ -1,0 +1,35 @@
+.card {
+    max-width: 50rem;
+}
+.card {
+    position: relative;
+    display: block;
+    margin-bottom: .75rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-img-top {
+    height: 250px;
+    width: 60%;
+    display: block;
+    border-top-right-radius: calc(.25rem - 1px);
+    border-top-left-radius: calc(.25rem - 1px);
+    vertical-align: middle;
+}
+.card-block {
+    padding: 1.25rem;
+}
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
